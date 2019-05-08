@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/behavior.iml" filepath="$PROJECT_DIR$/.idea/modules/behavior.iml" group="behavior" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/behavior/behavior_main.iml" filepath="$PROJECT_DIR$/.idea/modules/behavior/behavior_main.iml" group="behavior" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/behavior/behavior_test.iml" filepath="$PROJECT_DIR$/.idea/modules/behavior/behavior_test.iml" group="behavior" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creater/creater.iml" filepath="$PROJECT_DIR$/.idea/modules/creater/creater.iml" group="creater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creater/creater_main.iml" filepath="$PROJECT_DIR$/.idea/modules/creater/creater_main.iml" group="creater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/creater/creater_test.iml" filepath="$PROJECT_DIR$/.idea/modules/creater/creater_test.iml" group="creater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor_main.iml" group="libtutor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor_test.iml" group="libtutor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure.iml" filepath="$PROJECT_DIR$/.idea/modules/structure.iml" group="structure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure/structure_main.iml" filepath="$PROJECT_DIR$/.idea/modules/structure/structure_main.iml" group="structure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure/structure_test.iml" filepath="$PROJECT_DIR$/.idea/modules/structure/structure_test.iml" group="structure" />
+    </modules>
+  </component>
+</project>

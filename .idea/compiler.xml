@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="behavior_main" target="1.8" />
+      <module name="behavior_test" target="1.8" />
+      <module name="creater_main" target="1.8" />
+      <module name="creater_test" target="1.8" />
+      <module name="libtutor-behavior_main" target="1.8" />
+      <module name="libtutor-behavior_test" target="1.8" />
+      <module name="libtutor_main" target="1.8" />
+      <module name="libtutor_test" target="1.8" />
+      <module name="structure_main" target="1.8" />
+      <module name="structure_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>状态模式.demo</OriginalElement>
+  <nodes>
+    <node x="755.0000000000001" y="106.5">状态模式.demo.SpiteVoteState</node>
+    <node x="1413.0" y="106.5">状态模式.demo.RepeatVoteState</node>
+    <node x="426.0" y="106.5">状态模式.demo.BlackVoteState</node>
+    <node x="1084.0" y="106.5">状态模式.demo.NormalVoteState</node>
+    <node x="951.0000000000001" y="223.0">状态模式.demo.VoteManager</node>
+    <node x="1098.5" y="0.0">状态模式.demo.VoteState</node>
+    <node x="981.0000000000001" y="414.0">状态模式.demo.DemoTest</node>
+  </nodes>
+  <notes>
+    <note x="515.0124649314309" y="271.95610266759485">
+      <node>状态模式.demo.VoteManager</node>
+      <value>VoteManager通过维护自身对象VoteState改变对应的行为，\negs：若1-5为改变自身对象为NormalVoteState，\n若5-10改变自身对象为RepeatVoteState，从而实现不同的行为</value>
+      <edge>
+        <point x="-102.5" y="-70.5" />
+        <point x="971.5000000000001" y="203.0" />
+        <point x="719.9482560835361" y="206.6404806766446" />
+        <point x="0.0" y="30.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="状态模式.demo.DemoTest" target="状态模式.demo.VoteManager">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="状态模式.demo.RepeatVoteState" target="状态模式.demo.VoteState">
+      <point x="0.0" y="-26.0" />
+      <point x="1567.5" y="82.0" />
+      <point x="1314.8" y="82.0" />
+      <point x="61.799999999999955" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.BlackVoteState" target="状态模式.demo.VoteState">
+      <point x="0.0" y="-26.0" />
+      <point x="580.5" y="72.0" />
+      <point x="1129.4" y="72.0" />
+      <point x="-123.59999999999991" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.VoteManager" target="状态模式.demo.RepeatVoteState">
+      <point x="61.5" y="-70.5" />
+      <point x="1135.5" y="193.0" />
+      <point x="1567.5" y="193.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.NormalVoteState" target="状态模式.demo.VoteState">
+      <point x="0.0" y="-26.0" />
+      <point x="1238.5" y="82.0" />
+      <point x="1253.0" y="82.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.VoteManager" target="状态模式.demo.SpiteVoteState">
+      <point x="-20.5" y="-70.5" />
+      <point x="1053.5" y="183.0" />
+      <point x="909.5000000000001" y="183.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.SpiteVoteState" target="状态模式.demo.VoteState">
+      <point x="0.0" y="-26.0" />
+      <point x="909.5000000000001" y="82.0" />
+      <point x="1191.2" y="82.0" />
+      <point x="-61.799999999999955" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.VoteManager" target="状态模式.demo.NormalVoteState">
+      <point x="20.5" y="-70.5" />
+      <point x="1094.5" y="183.0" />
+      <point x="1238.5" y="183.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.VoteManager" target="状态模式.demo.VoteState">
+      <point x="102.5" y="-70.5" />
+      <point x="1176.5" y="203.0" />
+      <point x="1732.5" y="203.0" />
+      <point x="1732.5" y="72.0" />
+      <point x="1376.6" y="72.0" />
+      <point x="123.59999999999994" y="26.0" />
+    </edge>
+    <edge source="状态模式.demo.VoteManager" target="状态模式.demo.BlackVoteState">
+      <point x="-61.5" y="-70.5" />
+      <point x="1012.5000000000001" y="193.0" />
+      <point x="580.5" y="193.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5292814684676289" x="1115.69439519508" y="210.65177758222944" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

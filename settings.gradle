@@ -1,0 +1,5 @@
+rootProject.name = 'libtutor'
+include 'behavior'
+include 'creater'
+include 'structure'
+

@@ -1,0 +1,59 @@
+configure(allprojects) { project ->
+    group = "libtutor"
+
+    apply plugin: "java"
+
+//    dependencyManagement {
+//        resolutionStrategy {
+//            cacheChangingModulesFor 0, "seconds"
+//        }
+//        applyMavenExclusions = false
+//        generatedPomCustomization {
+//            enabled = false
+//        }
+//    }
+
+    configurations.all {
+        // Check for updates every build
+        resolutionStrategy.cacheChangingModulesFor 0, "seconds"
+
+    }
+
+    compileJava {
+        sourceCompatibility = 1.8  // can be switched to 11 for testing
+        targetCompatibility = 1.8
+        options.encoding = "UTF-8"
+    }
+
+    compileTestJava {
+        sourceCompatibility = 1.8  // can be switched to 11 for testing
+        targetCompatibility = 1.8
+        options.encoding = "UTF-8"
+        options.compilerArgs += "-parameters"
+    }
+
+//    compileKotlin {
+//        kotlinOptions {
+//            jvmTarget = "1.8"
+//            freeCompilerArgs = ["-Xjsr305=strict"]
+//        }
+//    }
+//
+//    compileTestKotlin {
+//        kotlinOptions {
+//            jvmTarget = "1.8"
+//            freeCompilerArgs = ["-Xjsr305=strict"]
+//        }
+//    }
+
+
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        testCompile("junit:junit:4.12") {
+            exclude group: "org.hamcrest", module: "hamcrest-core"
+        }
+    }
+}
