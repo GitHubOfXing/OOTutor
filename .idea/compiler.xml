@@ -10,8 +10,12 @@
       <module name="libtutor-behavior_test" target="1.8" />
       <module name="libtutor_main" target="1.8" />
       <module name="libtutor_test" target="1.8" />
+      <module name="stack-imitate_main" target="1.8" />
+      <module name="stack-imitate_test" target="1.8" />
       <module name="structure_main" target="1.8" />
       <module name="structure_test" target="1.8" />
+      <module name="thread-tutor_main" target="1.8" />
+      <module name="thread-tutor_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

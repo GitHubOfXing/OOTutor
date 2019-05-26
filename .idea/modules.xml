@@ -11,9 +11,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor_main.iml" group="libtutor" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtutor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/libtutor_test.iml" group="libtutor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stack-imitate.iml" filepath="$PROJECT_DIR$/.idea/modules/stack-imitate.iml" group="stack-imitate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stack-imitate/stack-imitate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stack-imitate/stack-imitate_main.iml" group="stack-imitate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stack-imitate/stack-imitate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stack-imitate/stack-imitate_test.iml" group="stack-imitate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure.iml" filepath="$PROJECT_DIR$/.idea/modules/structure.iml" group="structure" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure/structure_main.iml" filepath="$PROJECT_DIR$/.idea/modules/structure/structure_main.iml" group="structure" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/structure/structure_test.iml" filepath="$PROJECT_DIR$/.idea/modules/structure/structure_test.iml" group="structure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread-tutor.iml" filepath="$PROJECT_DIR$/.idea/modules/thread-tutor.iml" group="thread-tutor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread-tutor/thread-tutor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/thread-tutor/thread-tutor_main.iml" group="thread-tutor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thread-tutor/thread-tutor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/thread-tutor/thread-tutor_test.iml" group="thread-tutor" />
     </modules>
   </component>
 </project>

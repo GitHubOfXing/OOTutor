@@ -2,4 +2,6 @@ rootProject.name = 'libtutor'
 include 'behavior'
 include 'creater'
 include 'structure'
+include 'thread-tutor'
+include 'stack-imitate'
 
